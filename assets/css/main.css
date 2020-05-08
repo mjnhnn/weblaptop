@@ -1017,6 +1017,10 @@
     background-color: #f1f5f5;
 }
 
+.app__container.product-details {
+    margin-bottom: 25px;
+}
+
 .app__content {
     padding-top: 36px;
 }
@@ -1502,6 +1506,10 @@ i.home-product-item__like-icon-fill {
 
 
 /* chi tiết sản phẩm css */
+
+.product-wrap {
+    background-color: #f1f5f5;
+}
 
 .product__details {
     margin: 0 8px;
@@ -2269,6 +2277,10 @@ i.home-product-item__like-icon-fill {
 
 /* test banner */
 
+.banner__slider {
+    padding: 0 8px;
+}
+
 .banner__slider>.slick-prev,
 .banner__slider>.slick-next {
     display: none !important;
@@ -2281,11 +2293,11 @@ i.home-product-item__like-icon-fill {
 
 .banner-deal h2 {
     text-align: left;
-    margin-top: 0;
-    font-size: 2.2rem;
-    color: var(--primary-color);
-    font-weight: 400;
+    margin: 0 8px 10px;
+    font-size: 1.6rem;
+    color: #f60;
     text-shadow: -5px 3px 10px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
 }
 
 .banner__title {
@@ -2302,7 +2314,7 @@ i.home-product-item__like-icon-fill {
     margin: 0;
     color: #fff;
     font-size: 1.8rem;
-    background-color: black;
+    background-color: #f60;
     padding: 0 30px;
     transform: rotate(45deg);
     text-align: center;
