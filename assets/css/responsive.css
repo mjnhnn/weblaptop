@@ -157,3 +157,12 @@
         width: 100%;
     }
 }
+
+@media(max-width:768px) {
+    .clearfix {
+        flex-wrap: nowrap;
+    }
+    .product__details-img-wapper {
+        overflow: hidden;
+    }
+}

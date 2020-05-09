@@ -2099,11 +2099,6 @@ i.home-product-item__like-icon-fill {
     display: flex;
 }
 
-
-/* .comment-form__content textarea:focus~.form-input {
-    display: flex;
-} */
-
 .form-input--open {
     display: flex;
 }
@@ -2270,6 +2265,45 @@ i.home-product-item__like-icon-fill {
 .Question__h1 {
     font-size: 1.4rem !important;
 }
+
+
+/* custom bzoom */
+
+.bzoom {
+    width: 100%;
+}
+
+.bzoom_thumb_image {
+    width: 100% !important;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.bzoom_small_thumbs {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+.clearfix {
+    width: 100% !important;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bzoom_small_thumbs li {
+    width: 30% !important;
+    margin: 5px !important;
+}
+
+.bzoom_small_thumbs li img {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+
+/* custom bzoom */
 
 
 /* chi tiết sản phẩm css */
