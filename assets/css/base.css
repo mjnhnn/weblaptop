@@ -49,6 +49,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.app {
+    overflow: hidden;
+}
+
 
 /*nền móng cho responsive*/
 

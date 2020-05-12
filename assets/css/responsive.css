@@ -15,9 +15,6 @@
         right: 0;
         left: 0;
     }
-    .header__cart {
-        /* text-align: left; */
-    }
     .header__cart-list {
         position: fixed;
         top: var(--header-height);
@@ -128,11 +125,33 @@
     }
 }
 
+@media(max-width:500px) {
+    .banner-deal__timer {
+        padding: 0;
+    }
+    .banner-deal__timer>div {
+        align-self: unset;
+    }
+    .banner-deal__logo>img {
+        width: 100px;
+        height: 50px;
+    }
+}
+
 @media (max-width:330px) {
     .header__logo-h3 {
         padding-right: 0;
     }
 }
+
+@media(max-width:1023px) {
+    .sugges h2 {
+        margin-bottom: 0;
+    }
+}
+
+
+/* responsive chi tiết sản phẩm */
 
 @media (max-width:1024px) {
     .installment-cart {
@@ -145,7 +164,6 @@
     .form-input {
         flex-direction: column;
     }
-    /* .form-input__rating, */
     .form-input__name,
     .form-input__mail,
     .form-input__button button,
