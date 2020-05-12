@@ -1,14 +1,12 @@
 /* chi tiết sản phẩm css */
 
-.product-wrap {
+.app__container {
     background-color: #f1f5f5;
 }
 
 .product__details {
     margin: 0 8px;
 }
-
-.product__details-title {}
 
 .product__details-title-list {
     list-style: none;
@@ -189,8 +187,6 @@
     display: none;
     animation: fadein linear 0.3s;
 }
-
-.guar-price-promotion {}
 
 .guar {
     font-size: 1.4rem;
@@ -449,7 +445,17 @@
 /* Giới thiệu sản phẩm css */
 
 .product-introduction {
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+.product-introduction::after {
+    content: "";
+    height: 25px;
+    display: block;
+}
+
+.product-introduction>div:last-child {
+    margin-bottom: 0;
 }
 
 .product-introduction__link {
@@ -521,10 +527,6 @@
 .specifications__table {
     width: 100%;
     border-collapse: collapse;
-}
-
-.specifications__tr {
-    /* border-top: 1px solid #EEE; */
 }
 
 .specifications__tr td:first-child {
