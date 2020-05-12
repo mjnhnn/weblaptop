@@ -58,6 +58,9 @@
 /* Mobile */
 
 @media (max-width:739px) {
+    .header__mobile-search:hover~.header__search {
+        display: flex;
+    }
     .hide-on-mobile {
         display: none;
     }
