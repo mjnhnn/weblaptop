@@ -594,7 +594,7 @@
 }
 
 .header__search-checkbox:checked~.header__search {
-    display: flex;
+    /* display: flex; */
 }
 
 .header__logo-img {
