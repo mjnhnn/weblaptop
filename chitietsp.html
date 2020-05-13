@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết sản phẩm</title>
-    <Link rel="Shorcut icon" href="https://hoikientruc.com/uploads/advertises/12580843d7de7b4.jpg"></Link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/grid.css">
@@ -13,25 +12,16 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.13.0/css/all.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
     <!-- [if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif] -->
     <link rel="stylesheet" href="assets/css/zoom.css">
-    <!-- Wow js and animate css -->
-    <script src="assets/wow/wow.min.js"></script>
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <script>
-        new WOW().init();
-    </script>
-    <!-- Wow js and animate css -->
 </head>
 
-<body onload="funtionloader()">
-    <div id="loader"></div>
-    <div class="app wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1.2s">
+<body>
+    <div class="app">
         <div class="product-wrap">
             <header class="header">
                 <div class="grid wide">
@@ -134,7 +124,7 @@
                     </label>
                         <div class="header__logo hide-on-tablet">
                             <!-- <img src="../F8-SHOP/assets/img/anhtraitim.jpg" alt="" class="header__logo-img"> -->
-                            <a href="index.html" class="header__logo-link">
+                            <a href="#" class="header__logo-link">
                                 <i class="fas fa-laptop " style="font-size: 20px; color:#fff;"></i>
                                 <!-- <img src="assets/img/logo4.png" class="header__logo-img" alt=""> -->
                                 <h3 class="header__logo-h3">LaptopComputer</h3>
@@ -144,16 +134,16 @@
                         <input type="checkbox" hidden name="" id="mobile-search-checkbox" class="header__search-checkbox">
                         <div class="header__search ">
                             <div class="header__search-input-wrap">
-                                <input id="input-header-search" type="text" class="header__search-input" placeholder="Tìm trong shop">
+                                <input id="input-header-search" onclick="search()" type="text" class="header__search-input" placeholder="Tìm trong shop">
                                 <!-- Search history -->
                                 <div id="header__search-historys" class="header__search-history">
                                     <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
                                     <ul class="header__search-history-list">
                                         <li class="header__search-history-item">
-                                            <a href="#">Máy tính Asus</a>
+                                            <a href="">Máy tính Asus</a>
                                         </li>
                                         <li class="header__search-history-item">
-                                            <a href="#">Laptop Lenovo</a>
+                                            <a href="">Laptop Lenovo</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -966,7 +956,6 @@
                                     <div class="fb-comments" data-href="https://facebook.com/mjnhnnnn/" data-width="100%" data-numposts="5"></div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -975,61 +964,61 @@
                 <div class="grid wide footer__content">
                     <div class="row">
                         <div class="col l-2-4 m-4 c-6">
-                            <h3 class="footer__heading wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">Chăm sóc khách hàng</h3>
+                            <h3 class="footer__heading">Chăm sóc khách hàng</h3>
                             <ul class="footer-list">
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Laptop computer mail</a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col l-2-4 m-4 c-6">
-                            <h3 class="footer__heading wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1s">Về chúng tôi</h3>
+                            <h3 class="footer__heading">Về chúng tôi</h3>
                             <ul class="footer-list">
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Giới thiệu</a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Tuyển dụng</a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Điều khoản</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col l-2-4 m-4 c-6">
-                            <h3 class="footer__heading wow fadeInLeft" data-wow-delay="0.7s" data-wow-duration="1s">Danh mục</h3>
+                            <h3 class="footer__heading">Danh mục</h3>
                             <ul class="footer-list">
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.7s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Laptop lenovo</a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.7s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Laptop dell</a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.7s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">Laptop asus</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col l-2-4 m-4 c-6">
-                            <h3 class="footer__heading wow fadeInLeft" data-wow-delay="0.9s" data-wow-duration="1s">Theo dõi</h3>
+                            <h3 class="footer__heading">Theo dõi</h3>
                             <ul class="footer-list">
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.9s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">
                                         <i class="footer-item__icon fab fa-facebook"></i> Facebook
                                     </a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.9s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">
                                         <i class="footer-item__icon fab fa-instagram"></i> Instagram
                                     </a>
                                 </li>
-                                <li class="footer-item wow fadeInLeft" data-wow-delay="0.9s" data-wow-duration="1s">
+                                <li class="footer-item">
                                     <a href="" class="footer-item__link">
                                         <i class="footer-item__icon fab fa-linkedin"></i> Likedin
                                     </a>
@@ -1037,12 +1026,14 @@
                             </ul>
                         </div>
                         <div class="col l-2-4 m-8 c-12">
-                            <h3 class="footer__heading wow fadeInLeft" data-wow-delay="1.1s" data-wow-duration="1.1s">Vào cửa hàng trên ứng dụng</h3>
-                            <div class="footer__dowload wow fadeInLeft" data-wow-delay="1.1s" data-wow-duration="1.1s">
+                            <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                            <div class="footer__dowload">
                                 <img src="assets/img/qr_code.png" alt="Download QR" class="footer__dowload-qr">
                                 <div class="footer__dowload-apps">
                                     <a href="" class="footer__dowload-app-link"><img src="assets/img/google_play.png" alt="Google play" class="footer__dowload-app-img"></a>
                                     <a href="" class="footer__dowload-app-link"><img src="assets/img/app_store.png" alt="App store" class="footer__dowload-app-img"></a>
+
+
                                 </div>
                             </div>
                         </div>
@@ -1052,7 +1043,7 @@
                 </div>
                 <div class="footer__bottom">
                     <div class="grid wide">
-                        <p class="footer__text wow fadeIn" data-wow-delay="1.5s" data-wow-duration="1.6s">@ 2020 - Bản quyền thuộc về công ty Laptopcomputer</p>
+                        <p class="footer__text">@ 2020 - Bản quyền thuộc về công ty Laptopcomputer</p>
                     </div>
                 </div>
             </footer>
@@ -1068,6 +1059,11 @@
             small_thumbs: 4,
             autoplay: false
         });
+    </script>
+    <script type="text/javascript">
+        $(document).on('click', '.product-intro__btn', function() {
+            $(this).addClass('product-intro__btn--active').siblings().removeClass('product-intro__btn--active')
+        })
     </script>
 </body>
 

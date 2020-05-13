@@ -607,12 +607,10 @@
     font-size: 25px;
     padding: 0 9px;
     font-weight: 900;
-    /* color: #fff; */
     margin: 0;
-        background: url(https://lh3.googleusercontent.com/proxy/y5wihIk9mznaft67jj4Ur0BvBU9wr70CMkw…z-u9hUThb_Cu5qCzkuTGDTE88MBfCpfda05V5te7lnFIYDrxKJ6fWfDqCOoG2T_aDnjDWnvJWg);
+    background: url(../img/background-logo.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-position: top right;
 }
 
 .header__search {
@@ -842,6 +840,10 @@
     color: var(--text-color);
     padding: 0 16px;
     border-radius: 2px;
+}
+
+.header__search-input:focus~.header__search-history {
+    display: block;
 }
 
 .header__search-select {

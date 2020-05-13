@@ -10,11 +10,3 @@ function myFunction() {
 $(document).on('click', '.product-intro__btn', function() {
     $(this).addClass('product-intro__btn--active').siblings().removeClass('product-intro__btn--active')
 })
-
-// loader
-var preloader = document.getElementById('loader');
-
-function funtionloader() {
-    preloader.style.display = 'none';
-}
-// loader

@@ -43,10 +43,10 @@ $(document).on('click', '.header__sort-item', function() {
     $(this).addClass('header__sort-item--active').siblings().removeClass('header__sort-item--active')
 })
 
-// function search() {
-//     var element = document.getElementById("header__search-historys");
-//     element.classList.add("opentab");
-// }
+function search() {
+    var element = document.getElementById("header__search-historys");
+    element.classList.add("opentab");
+}
 
 // document.getElementById('input-header-search').onclick = function() {
 //     window.location.href = "#header__search-historys";
@@ -104,11 +104,3 @@ function makeTimer() {
 }
 
 setInterval(function() { makeTimer(); }, 1000);
-
-// loader
-var preloader = document.getElementById('loader');
-
-function funtionloader() {
-    preloader.style.display = 'none';
-}
-// loader

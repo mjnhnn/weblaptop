@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.13.0/css/all.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
     <!-- [if lte IE 9]>
@@ -43,8 +42,7 @@
     <script src="assets/js/script.js" defer></script>
 </head>
 
-<body onload="funtionloader()">
-    <div id="loader"></div>
+<body>
     <div class="app wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="1.2s">
         <header class="header">
             <div class="grid wide">
@@ -142,12 +140,12 @@
                 </nav>
                 <!-- header-with-search -->
                 <div class="header-with-search">
-                    <label class="header__mobile-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
                         <i class="fas fa-search header__mobile-search-icon" ></i>
                     </label>
                     <div class="header__logo hide-on-tablet">
                         <!-- <img src="../F8-SHOP/assets/img/anhtraitim.jpg" alt="" class="header__logo-img"> -->
-                        <a href="index.html" class="header__logo-link">
+                        <a href="#" class="header__logo-link">
                             <i class="fas fa-laptop "></i>
                             <!-- <img src="assets/img/logo4.png" class="header__logo-img" alt=""> -->
                             <h3 class="header__logo-h3">LaptopComputer</h3>
@@ -157,16 +155,16 @@
                     <input type="checkbox" hidden name="" id="mobile-search-checkbox" class="header__search-checkbox">
                     <div class="header__search ">
                         <div class="header__search-input-wrap">
-                            <input id="input-header-search" type="text" class="header__search-input" placeholder="Tìm trong shop">
+                            <input id="input-header-search" onclick="search()" type="text" class="header__search-input" placeholder="Tìm trong shop">
                             <!-- Search history -->
                             <div id="header__search-historys" class="header__search-history">
                                 <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
                                 <ul class="header__search-history-list">
                                     <li class="header__search-history-item">
-                                        <a href="#">Máy tính Asus</a>
+                                        <a href="">Máy tính Asus</a>
                                     </li>
                                     <li class="header__search-history-item">
-                                        <a href="#">Laptop Lenovo</a>
+                                        <a href="">Laptop Lenovo</a>
                                     </li>
                                 </ul>
                             </div>
